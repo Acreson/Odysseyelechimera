@@ -68,6 +68,46 @@ Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar & Acreson
 Name: libhooker
 
+Package: org.coolstar.sileo
+Version: 1.8.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Filename: ./debs/org.coolstar.sileo_1.8.3_iphoneos-arm.deb
+Size: 3150808
+MD5sum: 94934e9b93076b65432dd282e4bae79c
+SHA1: 861fbb9de60e79c17f55d5501fe644f66ca73bc5
+SHA256: c19ea0e9b21df930f8a88a9fcac7de969a0742c5274325acfafc93b0775df2c0
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+
+Package: org.coolstar.sileo
+Version: 1.8.4-Beta
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Filename: ./debs/org.coolstar.sileo_1.8.4-Beta_iphoneos-arm.deb
+Size: 3149808
+MD5sum: bfed09e3f6ccddd2ac2cf90cafc0de54
+SHA1: 399a42567cdc39ada651719f80aaceb1433f11c6
+SHA256: 0b62b193f2dca79f9851011496dbe8c490e4b721bdbb3b54c941cd1e3bb05e9c
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+
 Package: org.swift.libswift
 Version: 5.0-electra3
 Architecture: iphoneos-arm
