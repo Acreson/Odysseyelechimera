@@ -1,0 +1,124 @@
+Package: apt
+Version: 1.8.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: apt-key, apt-lib (>= 1.8.2), cy+cpu.arm64
+Replaces: apt7
+Provides: apt7 (= 1.8.2)
+Filename: ./debs/apt_1.8.3_iphoneos-arm.deb
+Size: 137500
+MD5sum: a6ae2f420304d8a7d016ab4d881c9351
+SHA1: 3226799f2e7e0722560ff3fc814e311d81eda336
+SHA256: 9b6e23e8d17cd1bfbe535c808b39aaba382d11e1181e120a6cd45e006fdc5c21
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT 1.8 Strict
+
+Package: lzma
+Version: 5.2.4-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: grep, sed, cy+cpu.arm64
+Filename: ./debs/lzma_5.2.4-2_iphoneos-arm.deb
+Size: 139748
+MD5sum: dc23166022b8ee857b6649c599c03373
+SHA1: e92f9b15a3eec9a7cab5e6bc639632db6df1f45a
+SHA256: 7fb4cf7d5ce0761fd9424c81a3b8e75c3c069c07c1c58fde7a2c9e8a828c2333
+Section: Archiving
+Priority: important
+Homepage: https://tukaani.org/xz/
+Description: slower, but better, compression algorithm
+Name: XZ Utils
+
+Package: org.coolstar.libhooker
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: ./debs/org.coolstar.libhooker_1.1-1_iphoneos-arm.deb
+Size: 57584
+MD5sum: 0449b34dc3a0400b863499b98db786ef
+SHA1: 48052e3575363ccae1baebe4e501eb92d6b5f2cd
+SHA256: a4860cc48e7abaddc1999815926f8b285a9e86e772511c7d739114d7a4779856
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: libhooker
+
+Package: org.coolstar.libhooker
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar & Acreson
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: ./debs/org.coolstar.libhooker_1.2_iphoneos-arm.deb
+Size: 57540
+MD5sum: 777a00e032fbd33d35d2636db457bb44
+SHA1: 59f971e4e6c70f2d399700fcf0127b01eff8b05c
+SHA256: 194fc6f33a1393cbfa0f8be672ac5320df90bb05dd34dfcac0f2c41b2d64d3fa
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar & Acreson
+Name: libhooker
+
+Package: org.swift.libswift
+Version: 5.0-electra3
+Architecture: iphoneos-arm
+Maintainer: CoolStar & Acreson
+Depends: firmware (>= 7.0)
+Filename: ./debs/org.swift.libswift_5.0-electra3_iphoneos-arm.deb
+Size: 23332108
+MD5sum: 1289c8b03ef34f471a19bdf6722492f3
+SHA1: f4c1329f3806cdf949db869c22cde4c42c3acd0a
+SHA256: 58353d6f11c1b9d1c8207fccec580a18fa916f740541920ac7310c6233680d94
+Section: Development
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Dev: kabiroberai
+Name: libswift (stable)
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.swift.libswift
+
+Package: preferenceloader
+Version: 2.2.4~coolstar3
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Installed-Size: 532
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.4~coolstar3_iphoneos-arm.deb
+Size: 33932
+MD5sum: 57e20744640d7def1aadc36aa45ad52e
+SHA1: c02292190191668bed3754d1b9cce29df5e59376
+SHA256: 6c9b0565d272164d59fd64913c22780a708fdf5111ba080990bbcb1b156cbe08
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
+
+Package: zsh
+Version: 5.7.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar & Acreson
+Depends: ncurses, cy+cpu.arm64
+Filename: ./debs/zsh_5.7.2_iphoneos-arm.deb
+Size: 1448516
+MD5sum: d54e6e63df6da648ef7e489ed31baea2
+SHA1: 27936a3ab01a57b9a7a67b90b4cec117b5c49f39
+SHA256: b72f465891714d88e7aaddc4c46b6a00fbbbc7570f7cabfc36c82cd2b29f934b
+Section: Terminal_Support
+Priority: required
+Homepage: http://www.zsh.org/
+Description: a shell designed for interactive use, although it is also a powerful scripting language
+Name: Z Shell (zsh)
+

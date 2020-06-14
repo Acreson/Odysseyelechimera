@@ -1,0 +1,8 @@
+Origin: Odyssey for Electra/Chimera
+Label: Odyssey for Electra/Chimera
+Suite: stable
+Version: 1.0
+Codename: Acreson
+Architecture: iphoneos-arm
+Components: main
+Description: Odyssey added support for Electra and Chimera on iOS 11.0-12.4.
