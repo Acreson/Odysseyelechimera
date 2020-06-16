@@ -60,6 +60,45 @@ Dev: flipswitch
 Icon: file:///Applications/Preferences.app/icon-table.png
 Name: Flipswitch
 
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta17
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, firmware (>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: ./debs/com.anemonetheming.anemone3_3.0~beta17.deb
+Size: 774920
+MD5sum: 3d7e474fdd7ec5817566abf1d070dc7e
+SHA1: aae8bc04600a7c4581bf75f5e827551e8f520444
+SHA256: b756830904e0878cbc8654cfc7a4903748ad4eb8cb8242f0279eccb0b63e8ff6
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
+
+Package: com.anemonetheming.anemone3-extsb
+Version: 3.0~beta12
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, com.anemonetheming.anemone3 (>=3.0~beta16)
+Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
+Provides: org.coolstar.classicdock, org.coolstar.classicbadges
+Filename: ./debs/com.anemonetheming.anemone3-extsb_3.0~beta12.deb
+Size: 37132
+MD5sum: 8ab73b61c4f489c964c9d71da962bca3
+SHA1: 51da2c1788f0d3ab5a12cfd68214797abff7ea79
+SHA256: 03c1130f7afebf43d4870ad6417c9e348f7f0b59d7128bbc313bd40bfd12e651
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3 SpringBoard Extension Pack
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.9
 Architecture: iphoneos-arm
