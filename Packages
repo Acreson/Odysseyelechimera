@@ -234,26 +234,6 @@ Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
-Package: org.coolstar.sileo
-Version: 1.8.5
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
-Conflicts: cydia-gui (<<99.0)
-Filename: ./debs/org.coolstar.sileo_1.8.5_iphoneos-arm.deb
-Size: 3151788
-MD5sum: 7f3354e4b5e7448f58b5ecc4670fa1a8
-SHA1: 433272ff34f48d23daaeeed558a7a84f776598dd
-SHA256: cfffbf444ae0730fc7a554eb22847794b8b8f0de979b47c6dd65ffa77f71c7f6
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
-
 Package: org.swift.libswift
 Version: 5.0-electra3
 Architecture: iphoneos-arm
