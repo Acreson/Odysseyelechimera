@@ -157,6 +157,24 @@ Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar & Acreson
 Name: libhooker
 
+Package: org.coolstar.libhooker
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar & Acreson
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: ./debs/org.coolstar.libhooker_1.2.1_iphoneos-arm.deb
+Size: 57528
+MD5sum: 686b91be5ba03f6f6a27ff0f22a8797f
+SHA1: 76acf9447267041d2883e9a6ae63f79419506efb
+SHA256: f22acea2577c7ace694aac5531922577306e0a365fdf3f0e23c5b23fb54e4c47
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar & Acreson
+Name: libhooker
+
 Package: org.coolstar.sileo
 Version: 1.8.3
 Architecture: iphoneos-arm
@@ -178,17 +196,17 @@ Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.sileo
-Version: 1.8.4
+Version: 1.8.5
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: ./debs/org.coolstar.sileo_1.8.4_iphoneos-arm.deb
-Size: 3150216
-MD5sum: 8b4d91285c5b0b2e0d469fe59567c063
-SHA1: a5df665a760417521f7ccfa794b8fd2e9c1b5d25
-SHA256: 281a2086759a8bed61027649c6839732393e9a3e84c9c5547c072f38c34a6087
+Filename: ./debs/org.coolstar.sileo_1.8.5_iphoneos-arm.deb
+Size: 3151788
+MD5sum: 7f3354e4b5e7448f58b5ecc4670fa1a8
+SHA1: 433272ff34f48d23daaeeed558a7a84f776598dd
+SHA256: cfffbf444ae0730fc7a554eb22847794b8b8f0de979b47c6dd65ffa77f71c7f6
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
