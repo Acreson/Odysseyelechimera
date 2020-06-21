@@ -160,6 +160,30 @@ Homepage: https://tukaani.org/xz/
 Description: slower, but better, compression algorithm
 Name: XZ Utils
 
+Package: org.coolstar.cctools
+Version: 895
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 11712
+Depends: openssl, uuid, org.coolstar.ld64
+Conflicts: odcctools
+Provides: odcctools
+Filename: ./debs/org.coolstar.cctools_895_iphoneos-arm.deb
+Size: 1288458
+MD5sum: 38f20640869ae66dd14c3b6992fd9379
+SHA1: 78dd7b91dfc8ef47c493d5b5c674dd612247c79d
+SHA256: 09debe36e1d3655a8504492d3a3b949a622291f5d9ae781089e1264123f88e24
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+Description: tools to work with mach-o files
+Tag: purpose::console
+Author: CoolStar <coolstarorganization@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+Dev: coolstar
+Name: Darwin CC Tools
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.coolstar.libhooker
 Version: 1.1-1
 Architecture: iphoneos-arm
