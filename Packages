@@ -256,6 +256,24 @@ Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar & Acreson
 Name: libhooker
 
+Package: org.coolstar.libhooker
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: ./debs/org.coolstar.libhooker_1.2.3.deb
+Size: 71848
+MD5sum: 670856614d46333c7f64704864e4e627
+SHA1: ae7ca6dff3c95fe6f61b9eb46f0d7115a42aeb84
+SHA256: 0f23864acc4801b1840faf28cc010938c0763227d37823f82112e724fc96fa66
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: libhooker
+
 Package: org.coolstar.sileo
 Version: 1.8.3
 Architecture: iphoneos-arm
